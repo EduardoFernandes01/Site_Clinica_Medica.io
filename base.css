@@ -1,0 +1,53 @@
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(148, 235, 235, 0.522);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    max-height: 300px;
+}
+.content {
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: rgba(60, 0, 255, 0.468);
+    max-height: 100px;
+    height: 100%;
+    text-align: center;
+}
+.mapa_contato{
+    display: flex;
+    justify-content: space-between; /* espaço entre mapa e form */
+    align-items: flex-start; /* alinhar pelo topo */
+    gap: 10px; /* espaço entre os elementos */
+}
+label{
+    width: 60px;
+    display: inline-block;
+    text-align: left;
+}
